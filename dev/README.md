@@ -53,7 +53,7 @@ Las pruebas funcionales unitarias se ejecutan desde el directorio `dev` con los 
 $ bin/robo opencart:setup (Paso 1. Configura el entorno de OpenCart)
 $ bin/robo project:deploy (Paso 2. Realiza un Deploy de OpenCart)
 $ bin/phpunit --testsuite catalog-tests (Paso 3. Ejecuta las pruebas del catalogo 'catalog-test' definidas en la suite phpunit.xml)
-$ opencart:run (Paso 4. Ejecuta servidor de OpenCart)
+$ bin/robo opencart:run (Paso 4. Ejecuta servidor de OpenCart)
 ```
 
 El paso número 4. es opcional, para ejecutar solo las pruebas solo es necesario ejecutar los paso 1. - 3.
