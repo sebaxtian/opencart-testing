@@ -1,0 +1,27 @@
+{
+    "name": "beyondit/opencart-project-template",
+    "description": "Opencart Project Template for Development",
+    "license": "GPL-3.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "stefanhuber",
+            "email": "stefan.huber@beyondit.at"
+        }
+    ],
+    "require-dev": {
+      "opencart/opencart" : "2.3.0.2",
+      "vlucas/phpdotenv": "~1.1.0",
+      "phpunit/phpunit" : "~4.0",
+      "beyondit/opencart-test-suite": "~2.3.0",
+      "consolidation/robo": "~1",
+      "henrikbjorn/lurker": "^1.2"
+    },
+    "config": {
+      "bin-dir": "bin/",
+      "preferred-install": "source"
+    },
+    "extra": {
+      "opencart-dir" : "www"
+    }
+}
