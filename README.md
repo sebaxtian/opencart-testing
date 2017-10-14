@@ -23,20 +23,26 @@ Se debe copiar el archivo `.env.sample` que se encuentra en el directorio `dev` 
 Modificar las variables de entorno que usa OpenCart según sea necesario:
 
 ### OpenCart Database connection values
+```
 OC_DB_HOSTNAME=localhost
 OC_DB_USERNAME=opencart
 OC_DB_PASSWORD=opencart
 OC_DB_DATABASE=opencart
 OC_DB_DRIVER=mysqli
+```
 
 ### OpenCart Administration user
+```
 OC_USERNAME=admin
 OC_PASSWORD=admin
 OC_EMAIL=you@example.com
+```
 
 ### Server Specification
+```
 SERVER_PORT=8000
 SERVER_URL=http://localhost
+```
 
 
 ## Ejecutar Pruebas
