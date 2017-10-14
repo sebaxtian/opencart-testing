@@ -13,7 +13,7 @@ Pruebas Funcionales Unitarias del Sistema OpenCart usando PHPUnit para el Curso 
 Antes de ejecutar el proyecto se deben instalar las dependencias usando la herramienta composer:
 
 ```sh
-$ composer intall
+$ composer install
 ```
 
 ## Configurar Variables de Entorno para OpenCart
@@ -40,6 +40,7 @@ SERVER_URL=http://localhost
 
 
 ## Ejecutar Pruebas
+
 Las pruebas funcionales unitarias se ejecutan desde el directorio `dev` con los siguientes pasos:
 
 ```sh
@@ -52,6 +53,7 @@ $ opencart:run (Paso 4. Ejecuta servidor de OpenCart)
 El paso número 4. es opcional, para ejecutar solo las pruebas solo es necesario ejecutar los paso 1. - 3.
 
 ### Suite de Pruebas
+
 La suite de pruebas se configura en el archivo `dev/phpunit.xml` se pueden crear bloques que componen la suite siguiendo el patrón:
 
 ```xml
