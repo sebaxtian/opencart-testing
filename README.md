@@ -10,7 +10,7 @@ Pruebas Funcionales Unitarias del Sistema OpenCart usando PHPUnit para el Curso 
 
 
 ## Instalar Dependenias
-Antes de ejecutar el proyecto se deben instalar las dependencias usando la herramienta composer:
+Antes de ejecutar el proyecto se deben instalar las dependencias desde el directorio `dev` usando la herramienta composer:
 
 ```sh
 $ composer install
